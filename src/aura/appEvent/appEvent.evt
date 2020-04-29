@@ -1,0 +1,4 @@
+﻿<aura:event type="APPLICATION" description="App Event">
+    <aura:attribute name="message" type="String"/>
+  
+</aura:event>
