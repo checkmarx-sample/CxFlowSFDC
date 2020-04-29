@@ -27,7 +27,7 @@
     <ui:button label="Get accounts" press="{!c.get_accts}"/>
     <aura:iteration var="obj" items="{!v.accounts}">
     	<p><a href="{!obj.Name}">{!'Name of ' + obj.Name}</a></p>
-        <p><a href="{#obj.CreatedDate}">{!'Created date of ' + obj.Name}</a></p>
+        <p><a href="{!obj.CreatedDate}">{!'Created date of ' + obj.Name}</a></p>
     </aura:iteration>
     
 </aura:component>

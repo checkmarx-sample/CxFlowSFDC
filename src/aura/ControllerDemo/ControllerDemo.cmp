@@ -2,7 +2,6 @@
     <aura:attribute name="Name" type="String" access="Private" default="nil"/>
     <aura:attribute name="toUpdate" type="String" access="Private" default="nil"/>
     <aura:attribute name="Id" type="String" access="Private" default="nil"/>
-	<aura:attribute name="myVar" type="String" access="Global" default="nil"/>
     <hr></hr>
     <ui:inputText label="enter name to search"
                   class="slds-input"
@@ -23,7 +22,5 @@
     <lightning:button label="press button to set name" 
                       onclick="{!c.setMyName}"/>
     <hr></hr>  
-	<a href="{!v.myVar}">babalbla</a>
-	<c:TestChildComponent prm="{!v.myVar}" secondPrm="{!v.Name}"/>
     
 </aura:component>
